@@ -22,10 +22,15 @@ gpt Partitionstabelle erstellen
 3. 30GB >> / >> LinuxFileSystem
 4. Rest >> /home >> LinuxFileSystem
 5. Write >> Quit
+
 	lsblk
 ### Partitionsformat
 	mkfs.fat -F32 /dev/sda1
+
 	mkswap /dev/sda2
+
 	swapon /dev/sda2
+
 	mkfs.ext4 /dev/sda3
+
 	mkfs.ext4 /dev/sda4
