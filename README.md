@@ -25,12 +25,13 @@ gpt Partitionstabelle erstellen
 
 	lsblk
 ### Partitionsformat
+#### EFI Format FAT 32
 	mkfs.fat -F32 /dev/sda1
-
+#### SWAP Format
 	mkswap /dev/sda2
-
+#### SWAP aktivieren
 	swapon /dev/sda2
-
+#### Root Format ext4
 	mkfs.ext4 /dev/sda3
-
+#### /home Format ext4
 	mkfs.ext4 /dev/sda4
