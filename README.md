@@ -22,7 +22,7 @@ gpt Partitionstabelle erstellen
 3. 30GB >> / >> LinuxFileSystem
 4. Rest >> /home >> LinuxFileSystem
 5. Write >> Quit
-
+### List Block
 	lsblk
 ### Partitionsformat
 #### EFI Format FAT 32
