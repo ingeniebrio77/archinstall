@@ -36,7 +36,7 @@
 
 	lsblk
 
-####Partitionirungstool starten mit path/to/Festplatte
+#### Partitionirungstool starten mit path/to/Festplatte
 
 ##### cfdisk, fdisk oder gdisk
 
@@ -115,6 +115,7 @@
 	hwclock --systohc
 
 ### Locales
+
 	echo 'de_DE.UTF-8 UTF-8' >> /etc/locale.gen
 
 	echo 'en_US.UTF-8 UTF-8' >> /etc/locale.gen
